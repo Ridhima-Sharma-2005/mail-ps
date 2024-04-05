@@ -25,7 +25,7 @@ Attachments Table:  In this table we keep extra stuff that comes with messages, 
 
 for backend connectivity i used php language to connect to the mysql server and used apache web server to host the site. firstly i established a connection between mysql and php to retrieve the data sets from mysql
 then the initially made html and css files (frontend) have to be connected to php for proepr functioning.
-i tried to implement the php code in html by changing the extension of html file to php and then embedding the code of connectivity. then the further php code is written to retrieve the data from mysql database
+i tried to implement the php code in html by changing the extension of html file to php and then embedding the code of connectivity. then the further php code is written to retrieve the data from mysql database. like for inbox we will retrive the data of email tables. and the info related to  composed emails when sent will go to the recepient table
 
 
 what all have been done--
