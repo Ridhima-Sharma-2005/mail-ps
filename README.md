@@ -22,6 +22,9 @@ Recipients Table: This table tells us who got each message. Since a message can 
 Attachments Table:  In this table we keep extra stuff that comes with messages, like files or pictures. Each piece of extra stuff has its own special number (id), and we connect it to the message it belongs to using the message's special number (email_id). We also save the name of the extra stuff and where it's kept.
  In this way of storing things helps keep track of who sent what to whom, what the messages are about, when they were sent, and any extra stuff that comes along with them. You can add more things or change stuff around to fit what you need.
 
+i created all these tables using mysql command prompt
+attaching the screenshots of the description of all the tables
+
 
 for backend connectivity i used php language to connect to the mysql server and used apache web server to host the site. firstly i established a connection between mysql and php to retrieve the data sets from mysql
 then the initially made html and css files (frontend) have to be connected to php for proepr functioning.
