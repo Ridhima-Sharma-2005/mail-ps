@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox Window</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .inbox {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .inbox-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+    
+        .email-list {
+            padding: 20px;
+        }
+        .email-item {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .email-item:hover {
+            background-color: #f9f9f9;
+        }
+        .email-item:last-child {
+            border-bottom: none;
+        }
+        .email-item .sender {
+            font-weight: bold;
+            padding: 100px 0;
+        }
+        .email-item .subject {
+            color: #333;
+        }
+        .email-item .date {
+            color: #777;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="inbox">
+        <div class="inbox-header">
+            <h2>Inbox</h2>
+        </div>
+        <div class="email-list">
+            <div class="email-item">
+                
+                <span class="sender">John Doe</span>
+                <span class="date"> Today 12:30 PM</span>
+               
+                </br>
+                <a href="/index.html">
+                <span class="subject">Meeting Reminder</span>
+                </a>
+                
+                
+            </div>
+            <div class="email-item">
+                <span class="sender">Jane Smith</span>
+                <span class="subject">Status Update</span>
+                <span class="date">Yesterday</span>
+            </div>
+            <div class="email-item">
+                <span class="sender">Sam Brown</span>
+                <span class="subject">New Product Announcement</span>
+                <span class="date">2 days ago</span>
+            </div>
+            <!-- Add more email items here -->
+        </div>
+    </div>
+</body>
+</html>
